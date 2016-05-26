@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1458990850 source:e:\projects\tiit\laba2\laba2 tiit\main.cpp
+	<iostream>
+	<stdlib.h>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1457697102 source:e:\projects\laba4_oaip\main.cpp
+	<stdio.h>
+	<tchar.h>
+	<conio.h>
+	<fstream>
+	<iostream>
+

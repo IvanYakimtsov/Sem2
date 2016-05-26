@@ -1,0 +1,17 @@
+ for(int i_a=0; i_a<a; i_a++)
+    {
+        for(int i_b=0; i_b<b; i_b++)
+            {
+                if(A[i_a]==B[i_b]){A[i_a]=200000;B[i_b]=200000; break;}
+
+            }
+    }
+    int i,e,ei,colvo_e=0,colvo_i=0,sh_e=-1,sh_e1=-1;
+    for(i=0;i<a; i++) {if(A[i]!=200000) {sh_e++;E[sh_e]=A[i];colvo_i++;}}
+    for(e=0;e<b; e++) {if(B[e]!=200000) {sh_e1++;E1[sh_e1]=B[e];colvo_e++;}}
+    ei=colvo_e+colvo_i;
+    cout<<endl;
+    cout<<"obedinenie: ";
+    cout<<endl;
+    for(int d=0; d<colvo_i;d++) cout<<E[d]<<" ";
+    for(int h=0; h<colvo_e;h++) cout<<E1[h]<<" ";

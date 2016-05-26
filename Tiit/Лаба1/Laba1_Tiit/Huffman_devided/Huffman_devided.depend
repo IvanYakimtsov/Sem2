@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1457450737 source:e:\projects\huffman_devided\main.cpp
+	<iostream>
+	<vector>
+	<map>
+	<list>
+	<fstream>
+

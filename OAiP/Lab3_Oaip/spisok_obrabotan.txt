@@ -1,0 +1,36 @@
+Worker:Kakoito_Chuvak
+id: 66
+time: 133
+time/money: 7
+zarplata: 819
+/---------------------------
+Worker:Shped_Aleksandr
+id: 5
+time: 177
+time/money: 5
+zarplata: 904
+/---------------------------
+Worker:Kalenchuk_Evgeny
+id: 13
+time: 134
+time/money: 8
+zarplata: 943
+/---------------------------
+Worker:Makedon_Egor
+id: 41
+time: 123
+time/money: 10
+zarplata: 1082
+/---------------------------
+Worker:Fedorovich_Artem
+id: 8
+time: 177
+time/money: 6
+zarplata: 1085
+/---------------------------
+Worker:Yakimtsov_Ivan
+id: 6
+time: 166
+time/money: 15
+zarplata: 2442
+/---------------------------

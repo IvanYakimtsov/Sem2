@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1458904402 source:e:\projects\Стэк\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1462457935 source:e:\projects\oaip\Стэк\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<ctime>
+

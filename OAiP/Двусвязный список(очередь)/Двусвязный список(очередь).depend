@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1459413764 source:e:\projects\Двусвязный список(очередь)\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+

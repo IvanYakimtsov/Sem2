@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1459601320 source:e:\projects\Нахождение пути в графе\main.cpp
+	<iostream>
+	<vector>
+	<iterator>
+	<stdio.h>
+

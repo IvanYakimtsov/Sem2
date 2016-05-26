@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1457640389 source:e:\projects\huffman_1\main.cpp
+	"Huffman.h"
+
+1457639616 source:e:\projects\huffman_1\lib.cpp
+	"Huffman.h"
+
+1457639414 e:\projects\huffman_1\huffman.h
+	<iostream>
+	<vector>
+	<map>
+	<list>
+	<fstream>
+

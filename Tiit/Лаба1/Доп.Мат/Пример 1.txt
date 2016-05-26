@@ -1,0 +1,75 @@
+class Haf
+{
+  char ArrSym[257];
+  int ArrFreak[257];
+  int TaleSym;
+  char MeetSym[257];
+  int MeetFreak[257];
+public:
+  string CinStr;
+  void Init();
+  void OutPut();
+  void LoadSymbols();
+  void ComputeFreak();
+}hmn;
+ 
+void Haf::Init()
+{
+  for(int i = 0; i < MAX_SYM;i++)
+    ArrFreak[i] = 0;
+  TaleSym = 0;
+}
+ 
+void Haf::LoadSymbols()
+{
+  for(int i = 0; i < MAX_SYM;i++)
+    ArrSym[i] = (char)i;
+}
+ 
+void Haf::ComputeFreak()
+{
+  cout << "¬ведите строку:";
+  getline(cin,CinStr);
+ 
+  for(int i = 0;i < CinStr.size();i++)
+    for(int j = 0;j < MAX_SYM;j++)
+    {
+      if(CinStr[i] == ArrSym[j])
+    {
+      ArrFreak[j]++;
+      break;
+    }
+    }
+  
+  for(int i = 0;i < MAX_SYM;i++)
+    {
+      if(ArrFreak[i] > 0)
+    {
+      MeetSym[TaleSym] = ArrSym[i];
+      MeetFreak[TaleSym] = ArrFreak[i];
+      TaleSym++;
+    }
+    }
+ 
+  for(int i = TaleSym - 1;i >= 0;i--)
+    for(int j = 0;j < i;j++)
+      {
+    if(MeetFreak[j] > MeetFreak[j + 1])
+      {
+        int Old = MeetFreak[j];
+        MeetFreak[j] = MeetFreak[j + 1];
+        MeetFreak[j + 1] = Old;
+ 
+        Old = (int)MeetSym[j];
+        MeetSym[j] = MeetSym[j + 1];
+        MeetSym[j + 1] = (char)Old;
+      }
+      }
+}
+ 
+ 
+void Haf::OutPut()
+{
+  for(int i = 0;i < TaleSym;i++)
+      cout << MeetSym[i] << " " << MeetFreak[i] << endl;
+}

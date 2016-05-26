@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1457788690 source:e:\projects\laba2_tiit\lib.cpp
+	"EC.h"
+
+1457788618 e:\projects\laba2_tiit\ec.h
+	<iostream>
+	<stdlib.h>
+
+1457788690 source:e:\projects\laba2_tiit\main.cpp
+	"EC.h"
+
+1457788690 source:e:\projects\laba2_tiit_final\lib.cpp
+	"EC.h"
+
+1457788618 e:\projects\laba2_tiit_final\ec.h
+	<iostream>
+	<stdlib.h>
+
+1457788690 source:e:\projects\laba2_tiit_final\main.cpp
+	"EC.h"
+

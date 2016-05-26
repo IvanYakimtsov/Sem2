@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1460112489 source:e:\projects\Уравнения\main.cpp
+	<iostream>
+	<cmath>
+	<stdio.h>
+

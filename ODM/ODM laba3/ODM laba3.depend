@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1463232535 source:e:\projects\tiit\Расчётная работа тиит\odm laba3\main.cpp
+	<iostream>
+	<vector>
+	<list>
+
+1463232535 source:e:\projects\odm laba3\main.cpp
+	<iostream>
+	<vector>
+	<list>
+

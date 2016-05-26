@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1462103784 source:e:\projects\tiit\Расчётная работа тиит\Поиск циклов\main.cpp
+	<iostream>
+	<stdio.h>
+	<vector>
+

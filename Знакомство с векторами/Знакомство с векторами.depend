@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1464116205 source:e:\projects\Знакомство с векторами\main.cpp
+	<iostream>
+	<vector>
+	<iterator>
+

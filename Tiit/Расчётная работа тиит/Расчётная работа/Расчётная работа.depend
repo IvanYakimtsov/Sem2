@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1462103148 source:e:\projects\tiit\Расчётная работа тиит\Расчётная работа\main.cpp
+	<iostream>
+	<stdio.h>
+	<vector>
+

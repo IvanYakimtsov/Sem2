@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1463226272 source:e:\projects\odm_laba1\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<iostream>
+	<conio.h>
+

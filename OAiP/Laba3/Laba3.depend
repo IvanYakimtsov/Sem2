@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1456492742 source:e:\projects\laba3\main.cpp
+	<conio.h>
+	<stdio.h>
+	<iostream>
+	<io.h>
+	<fstream>
+	<string.h>
+
+1456492742 source:e:\projects\oaip\laba3\main.cpp
+	<conio.h>
+	<stdio.h>
+	<iostream>
+	<io.h>
+	<fstream>
+	<string.h>
+
