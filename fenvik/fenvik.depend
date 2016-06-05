@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1465041531 source:e:\projects\fenvik\lib.cpp
+	"fenvik.h"
+
+1465041434 e:\projects\fenvik\fenvik.h
+	<iostream>
+	<vector>
+
+1465041434 source:e:\projects\fenvik\main.cpp
+	"fenvik.h"
+	<iostream>
+
