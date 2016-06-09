@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1465476029 source:e:\projects\Поиск максимального пути\main.cpp
+	<iostream>
+	<stdio.h>
+	<vector>
+
