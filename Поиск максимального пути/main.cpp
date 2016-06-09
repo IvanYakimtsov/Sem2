@@ -15,6 +15,7 @@ int main()
 {
    setlocale(LC_ALL,"Russian");
    cout<<"количество вершин: ";int N;cin>>N;
+   cout<<"количество рёбер: ";int n;cin>>n;
    Node *Graph;
    Graph=new Node[N];
    for(int i=0;i<N;i++)
@@ -25,14 +26,29 @@ int main()
     Graph[i].check=true;
    }
    cout<<endl<<"Список смежности: "<<endl;
+   vector<vector<int> > L(n);
    int tmp;
-   int g=0;
-   while(g<N)
+   for(int i=0;i<n;i++)
+    for(int j=0;j<3;j++)
    {
-      cin>>tmp;
-      if(tmp!=-1) Graph[g].vert.push_back(tmp);
-      if(tmp==-1) g++;
+       cin>>tmp;
+       if(j!=1) L[i].push_back(tmp-1);
+       else L[i].push_back(tmp);
    }
+
+
+  for(int i=0;i<n;i++)
+  {
+      Graph[L[i][0]].vert.push_back(L[i][2]);
+      Graph[L[i][0]].vert.push_back(L[i][1]);
+      Graph[L[i][2]].vert.push_back(L[i][0]);
+      Graph[L[i][2]].vert.push_back(L[i][1]);
+  }
+
+
+
+
+
    cout<<"номер начальной вершины: ";
    int begin;
    cin>>begin;
