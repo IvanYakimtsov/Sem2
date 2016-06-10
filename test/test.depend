@@ -2,7 +2,15 @@
 1461088040 source:e:\projects\tiit\Расчётная работа тиит\test\main.cpp
 	<iostream>
 
-1463848918 source:e:\projects\test\main.cpp
-	<iostream>
-	<vector>
+1465575972 source:e:\projects\test\main.cpp
+	<cstdio>
+	"head.h"
+	<algorithm>
+
+1465575972 e:\projects\test\head.h
+	<cstdio>
+	<algorithm>
+
+1465575972 source:e:\projects\test\lib.cpp
+	"head.h"
 

@@ -13,9 +13,22 @@ struct Node
 
 int main()
 {
+   FILE* fi;
+   int test=0;
+    while(test<5)
+   {
+    switch(test)
+    {
+        case 0:{fi = fopen("1.txt","r");cout<<endl<<"test1";break;}
+        case 1:{fi = fopen("2.txt","r");cout<<endl<<"test2";break;}
+        case 2:{fi = fopen("3.txt","r");cout<<endl<<"test3";break;}
+        case 3:{fi = fopen("4.txt","r");cout<<endl<<"test4";break;}
+        case 4:{fi = fopen("5.txt","r");cout<<endl<<"test5";break;}
+    }
    setlocale(LC_ALL,"Russian");
-   cout<<"количество вершин: ";int N;cin>>N;
-   cout<<"количество рёбер: ";int n;cin>>n;
+   int n,N;
+   fscanf(fi,"%d",&N);
+   fscanf(fi,"%d",&n);
    Node *Graph;
    Graph=new Node[N];
    for(int i=0;i<N;i++)
@@ -25,37 +38,36 @@ int main()
     Graph[i].weight=0;
     Graph[i].check=true;
    }
-   cout<<endl<<"Список смежности: "<<endl;
+  // cout<<endl<<"Список смежности: "<<endl;
    vector<vector<int> > L(n);
    int tmp;
    for(int i=0;i<n;i++)
     for(int j=0;j<3;j++)
    {
-       cin>>tmp;
-       if(j!=1) L[i].push_back(tmp-1);
+       fscanf(fi,"%d",&tmp);
+       if(j!=2) L[i].push_back(tmp-1);
        else L[i].push_back(tmp);
    }
 
 
   for(int i=0;i<n;i++)
   {
-      Graph[L[i][0]].vert.push_back(L[i][2]);
       Graph[L[i][0]].vert.push_back(L[i][1]);
-      Graph[L[i][2]].vert.push_back(L[i][0]);
-      Graph[L[i][2]].vert.push_back(L[i][1]);
+      Graph[L[i][0]].vert.push_back(L[i][2]);
+      Graph[L[i][1]].vert.push_back(L[i][0]);
+      Graph[L[i][1]].vert.push_back(L[i][2]);
   }
 
 
 
 
 
-   cout<<"номер начальной вершины: ";
+
    int begin;
-   cin>>begin;
+   fscanf(fi,"%d",&begin);
    begin=begin-1;;
-   cout<<endl<<"номер конечной вершины: ";
    int end;
-   cin>>end;
+   fscanf(fi,"%d",&end);
    end=end-1;
    cout<<endl;
    swap(Graph[0],Graph[begin]);
@@ -85,7 +97,7 @@ int main()
           e=Graph[e].priv;
        }
        cout<<Graph[begin].name+1<<" ";
-
-
+   test++;
+   }
     return 0;
 }
