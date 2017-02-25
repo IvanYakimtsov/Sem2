@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1477903012 source:d:\projects\aois lb4\main.cpp
+	<iostream>
+	<conio.h>
+

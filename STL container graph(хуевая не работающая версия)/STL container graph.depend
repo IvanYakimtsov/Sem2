@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1477505384 source:d:\projects\stl container graph\main.cpp
+	<iostream>
+	<map>
+	<vector>
+
+1478161057 source:d:\projects\stl container graph(хуевая не работающая версия)\main.cpp
+	<iostream>
+	<map>
+	<vector>
+

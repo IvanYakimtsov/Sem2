@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1481534642 source:d:\projects\aois7\main.cpp
+	<iostream>
+	<bitset>
+	<vector>
+	<random>
+	<algorithm>
+	<sstream>
+	<windows.h>
+	<conio.h>
+

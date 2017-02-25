@@ -1,16 +1,10 @@
 # depslib dependency file v1.0
-1461088040 source:e:\projects\tiit\Расчётная работа тиит\test\main.cpp
+1446667744 source:d:\projects\test\main.cpp
 	<iostream>
 
-1465575972 source:e:\projects\test\main.cpp
-	<cstdio>
-	"head.h"
-	<algorithm>
+1476694869 
 
-1465575972 e:\projects\test\head.h
-	<cstdio>
-	<algorithm>
-
-1465575972 source:e:\projects\test\lib.cpp
-	"head.h"
+1476694869 source:/media/ivan/AE5EAE815EAE41C7/Projects/test/main.cpp
+	"iostream"
+	"string.h"
 

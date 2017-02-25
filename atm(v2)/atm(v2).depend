@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1475058793 source:d:\projects\atm(v2)\main.cpp
+	"atm.h"
+
+1475684899 d:\projects\atm(v2)\atm.h
+	<iostream>
+	<fstream>
+	"cstdlib"
+	<sstream>
+	<string>
+	<algorithm>
+	<iterator>
+	<vector>
+	<Windows.h>
+
